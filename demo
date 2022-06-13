@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+
+<head> ES6Features</head>
+<script>
+    let numbers = [1, 2, 3, 4, 5];
+    const cube = numbers.map((a) => a * a * a);
+    console.log(cube);
+    const square = numbers.map((a) => a * a);
+    console.log(square);
+    const es6Evenfeatures = numbers.filter((numbers) => !(number % 2));
+    console.log(es6Evenfeatures);
+    const multiFeatures = numbers.filter((numbers) => !(number % 3));
+    console.log(multiFeatures)
+</script>
